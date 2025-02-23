@@ -1,6 +1,8 @@
 !pip install google-generativeai
 import google-generativeai as genai
 genai.configure(api_key=AIzaSyAuHO_-ijh0XbhMmdqaz6tV7JszvwQLJfY)
+model = genai.GenerativeModel(gemini-1.5-flash)
+
 
 const apiKey = 'AIzaSyAuHO_-ijh0XbhMmdqaz6tV7JszvwQLJfY'; // Substitua pela sua chave de API
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
